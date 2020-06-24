@@ -1,0 +1,24 @@
+{
+    "name": "pxt-kitronik-motor-driver",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "kitronik-motor-driver": "github:KitronikLtd/pxt-kitronik-motor-driver#v0.0.6"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "main.blocks"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "ignoreConflicts": true
+    }
+}
